@@ -22,7 +22,7 @@
             <a href="{{ route('home') }}" class="nav-item-link active">HOME</a>
             <a href="{{ route('detail') }}" class="nav-item-link">PROJECT</a>
             <a href="#" class="nav-item-link">ABOUT</a>
-            <a href="#" class="nav-item-link">CONTACT</a>
+            <a href="{{ route('contact') }}" class="nav-item-link">CONTACT</a>
         </div>
         <button class="btn-admin">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#bb86fc" stroke-width="2">

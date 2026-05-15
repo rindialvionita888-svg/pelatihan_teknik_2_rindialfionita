@@ -87,9 +87,9 @@
                             - Deadline Pengerjaan:<br>
                             - Estimasi Budget:
                         </div>
-
+    
                         <div class="mt-4">
-                            <a href="mailto:rindialvionita888@email.com" class="btn btn-outline-light w-100 py-3" style="border-color: var(--accent); color: var(--accent); border-radius: 10px;">
+                            <a href="mailto:rindialv@email.com" class="btn btn-outline-light w-100 py-3" style="border-color: var(--accent); color: var(--accent); border-radius: 10px;">
                                 Send Email Now
                             </a>
                         </div>
