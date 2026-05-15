@@ -84,7 +84,7 @@
                 <div class="col-lg-8">
                     <h1 style="font-size: 3.5rem; font-weight: 700;">ABOUT <span style="color: var(--accent);">ME.</span></h1>
                     <p class="mt-4" style="font-size: 1.2rem; color: #ccc; line-height: 1.8;">
-                        Halo! Saya <strong>Rindi Alfionita</strong>. Saya adalah MahasiswaTeknik Informatika yang memiliki *passion* besar dalam menjembatani ide bisnis dengan solusi digital yang estetik dan fungsional.
+                        Halo! Saya <strong>Rindi Alfionita</strong>. Saya adalah MahasiswaTeknik Informatika yang memiliki passion besar dalam menjembatani ide bisnis dengan solusi digital yang estetik dan fungsional.
                     </p>
                     <p style="color: #888; line-height: 1.8;">
                         Keahlian Saya: User Research, Information Architecture, Wireframing, High-Fidelity UI Design, Interactive Prototyping, Usability Testing.
