@@ -1,21 +1,141 @@
-@extends('layout.master')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Showcase - RindiAlv</title>
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        body { 
+            background-color: var(--bg-main); 
+            color: var(--text); 
+            overflow-x: hidden; 
+        }
 
-@section('title', 'Latihan 2 - Box Model')
+        .detail-card { 
+            background: #151515; 
+            border: 1px solid rgba(187, 134, 252, 0.1); 
+            border-radius: 20px; 
+            padding: 20px; 
+            transition: transform 0.3s ease, border 0.3s ease;
+        }
 
-@section('content')
-<div class="container py-5">
-    <h1 class="bg-dark text-white p-3 mb-1">Saya RindiAlv</h1>
-    <h2 class="bg-secondary text-white p-2 mb-4">Web/Mobile Developer</h2>
+        .detail-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--accent);
+        }
 
-    <div class="mb-4">
-        <img src="{{ asset('img/foto_rindi.jpeg') }}" alt="Foto RindiAlv" 
-             class="img-thumbnail shadow" style="max-width: 200px;">
-    </div>
+        .portfolio-mockup {
+            background: #000;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
 
-    <div class="bg-white text-dark p-4 border-start border-5 border-dark shadow-sm" style="line-height: 1.6;">
-        <p class="mb-0">
-            Saya adalah lulusan Teknik Informatika. Berpengalaman dalam Web Designer dan Developer.
-        </p>
-    </div>
-</div>
-@endsection
+        .portfolio-image {
+            width: 100%;
+            height: 200px; /* Ukuran tinggi seragam */
+            object-fit: cover; /* Biar gambar gak penyet */
+            transition: opacity 0.3s ease;
+        }
+
+        .portfolio-image:hover {
+            opacity: 0.8;
+        }
+
+        .project-title {
+            color: var(--accent);
+            font-weight: 700;
+            margin-top: 15px;
+            text-transform: uppercase;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+        }
+
+        .project-desc {
+            color: #888;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="side-nav">
+        <div class="nav-logo">
+            <h2 style="color: var(--accent);">R.</h2>
+        </div>
+        <div class="nav-links">
+            <a href="{{ route('home') }}" class="nav-item-link">HOME</a>
+            <a href="{{ route('detail') }}" class="nav-item-link active">PROJECT</a>
+            <a href="#" class="nav-item-link">ABOUT</a>
+            <a href="#" class="nav-item-link">CONTACT</a>
+        </div>
+        <button class="btn-admin">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#bb86fc" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="9" y1="3" x2="9" y2="21"></line>
+            </svg>
+        </button>
+    </nav>
+
+    <main class="main-wrapper">
+        <div class="container py-4">
+            <a href="{{ route('home') }}" class="text-decoration-none mb-4 d-inline-block" style="color: var(--accent);">
+                ← Back to Overview
+            </a>
+
+            <div class="mb-5">
+                <h1 style="font-size: 3.5rem; font-weight: 700;">PORTFOLIO <span style="color: var(--accent);">CASE.</span></h1>
+                <p style="color: #666; letter-spacing: 3px; font-weight: 500;">UI/UX DESIGN & DEVELOPMENT PROCESS</p>
+            </div>
+
+            <div class="row g-4">
+                
+                <div class="col-md-4">
+                    <div class="detail-card h-100">
+                        <div class="portfolio-mockup">
+                            <img src="{{ asset('img/portfolio1.jpg') }}" alt="UI UX Design" class="portfolio-image">
+                        </div>
+                        <h5 class="project-title">UI/UX Visual Design</h5>
+                        <p class="project-desc">
+                          sek isinya lg mikir
+
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="detail-card h-100">
+                        <div class="portfolio-mockup">
+                            <img src="{{ asset('img/portfolio2.jpg') }}" alt="Web Dev" class="portfolio-image">
+                        </div>
+                        <h5 class="project-title">Frontend Implementation</h5>
+                        <p class="project-desc">
+                            bntr
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="detail-card h-100">
+                        <div class="portfolio-mockup">
+                            <img src="{{ asset('img/portfolio3.jpg') }}" alt="Final Product" class="portfolio-image">
+                        </div>
+                        <h5 class="project-title">System Integration</h5>
+                        <p class="project-desc">
+                            AAAA
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
