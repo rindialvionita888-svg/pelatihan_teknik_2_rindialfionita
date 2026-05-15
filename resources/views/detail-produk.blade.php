@@ -71,7 +71,7 @@
         <div class="nav-links">
             <a href="{{ route('home') }}" class="nav-item-link">HOME</a>
             <a href="{{ route('detail') }}" class="nav-item-link active">PROJECT</a>
-            <a href="#" class="nav-item-link">ABOUT</a>
+            <a href="{{ route('about') }}" class="nav-item-link">ABOUT</a>
             <a href="{{ route('contact') }}" class="nav-item-link">CONTACT</a>
         </div>
         <button class="btn-admin">
