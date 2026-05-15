@@ -98,7 +98,7 @@
                 <div class="col-md-4">
                     <div class="detail-card h-100">
                         <div class="portfolio-mockup">
-                            <img src="{{ asset('img/portfolio1.jpg') }}" alt="UI UX Design" class="portfolio-image">
+                            <img src="{{ asset('img/porto1.png') }}" alt="UI UX Design" class="portfolio-image">
                         </div>
                         <h5 class="project-title">UI/UX Visual Design</h5>
                         <p class="project-desc">
@@ -112,7 +112,7 @@
                 <div class="col-md-4">
                     <div class="detail-card h-100">
                         <div class="portfolio-mockup">
-                            <img src="{{ asset('img/portfolio2.jpg') }}" alt="Web Dev" class="portfolio-image">
+                            <img src="{{ asset('img/porto2.png') }}" alt="Web Dev" class="portfolio-image">
                         </div>
                         <h5 class="project-title">Frontend Implementation</h5>
                         <p class="project-desc">
@@ -124,7 +124,7 @@
                 <div class="col-md-4">
                     <div class="detail-card h-100">
                         <div class="portfolio-mockup">
-                            <img src="{{ asset('img/portfolio3.jpg') }}" alt="Final Product" class="portfolio-image">
+                            <img src="{{ asset('img/porto3.png') }}" alt="Final Product" class="portfolio-image">
                         </div>
                         <h5 class="project-title">System Integration</h5>
                         <p class="project-desc">
