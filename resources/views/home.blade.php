@@ -35,7 +35,7 @@
             <p style="font-size: 1.5rem; color: #888;">I am Rindi Alfionita. Welcome to my technical project.</p>
             
             <div style="margin-top: 50px; border-left: 2px solid var(--accent); padding-left: 20px;">
-                <p>Projek ini adalah hasil pelatihan teknik 2.</p>
+                <p>Projek ini adalah hasil pelatihan teknik pertemuan 4</p>
                 <small style="color: #666;">Built with Laravel & Passion</small>
             </div>
         </section>
