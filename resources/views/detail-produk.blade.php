@@ -90,7 +90,7 @@
 
             <div class="mb-5">
                 <h1 style="font-size: 3.5rem; font-weight: 700;">PORTFOLIO <span style="color: var(--accent);">CASE.</span></h1>
-                <p style="color: #666; letter-spacing: 3px; font-weight: 500;">UI/UX DESIGN & DEVELOPMENT PROCESS</p>
+                <p style="color: #666; letter-spacing: 3px; font-weight: 500;">UI/UX DESIGN & DESCRIPTION</p>
             </div>
 
             <div class="row g-4">
@@ -100,11 +100,9 @@
                         <div class="portfolio-mockup">
                             <img src="{{ asset('img/porto1.png') }}" alt="UI UX Design" class="portfolio-image">
                         </div>
-                        <h5 class="project-title">UI/UX Visual Design</h5>
+                        <h5 class="project-title">LoveVoy Bouquete</h5>
                         <p class="project-desc">
-                          sek isinya lg mikir
-
-
+                          Tampilan High-Fidely beserta prototype yang sudah di sambungkan tiapp halaman. Bertema warna pink dan putih agar user merasa nyaman dan ceria ketika menggunakan aplikasi ini. Memiliki fitur yang lengkap yaitu Login page, Homepage, Produk, Our Place, Custom Order, Contact, About Us, dan Our place (alamat).Menggunakan Figma sebagai tools untuk mendesain dan membuat prototype.
                         </p>
                     </div>
                 </div>
@@ -114,9 +112,9 @@
                         <div class="portfolio-mockup">
                             <img src="{{ asset('img/porto2.png') }}" alt="Web Dev" class="portfolio-image">
                         </div>
-                        <h5 class="project-title">Frontend Implementation</h5>
+                        <h5 class="project-title">DONUT BE-SHY</h5>
                         <p class="project-desc">
-                            bntr
+                            Tampilan High-Fidelty beserta prototype yang sudah disambungkan di setiap halaman. Hanya menampikan bagian Login page dan homepage saja, dimana ditampilkan berbagai menu donat, dan akan berubah warna sesuai varian rasa donat nya. 
                         </p>
                     </div>
                 </div>
@@ -126,9 +124,9 @@
                         <div class="portfolio-mockup">
                             <img src="{{ asset('img/porto3.png') }}" alt="Final Product" class="portfolio-image">
                         </div>
-                        <h5 class="project-title">System Integration</h5>
+                        <h5 class="project-title">TaniJiwo App</h5>
                         <p class="project-desc">
-                            AAAA
+                            Tampilan High-Fidelity beserta prototype yang sudah disambungkan di setiap halaman.Bertema warna hijau dan putih karena konsep aplikasi yang dibuat untuk memangtau perkembangan  tanaman.Berisi Fitur Trend atau berita pertanian, Tips, serta reminder "siram dan pupuk", analisis cuaca, Buku Tani, Deteksi hama menggunakan pencarian Kamera, Info harga pasaran. Terdapat Login page, Home page, Profile, Video tutorial, Dirrect Message sesama User, diperuntukkan agar dapat sharing experience masing-masing user. Menggunakan Figma sebagai tools untuk mendesain dan membuat prototype.
                         </p>
                     </div>
                 </div>
