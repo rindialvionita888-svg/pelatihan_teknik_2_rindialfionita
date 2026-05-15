@@ -80,7 +80,12 @@
                         <p style="color: #888;">Silakan kirimkan email atau pesan dengan format berikut untuk mempercepat proses penawaran:</p>
                         
                         <div class="format-box mt-3">
-                         
+                            Subject: [ORDER] - Nama Project / Nama Anda<br><br>
+                            - Nama Lengkap:<br>
+                            - Jenis Layanan (UI UX / Web Dev / Keduanya):<br>
+                            - Deskripsi Singkat Project:<br>
+                            - Deadline Pengerjaan:<br>
+                            - Estimasi Budget:
                         </div>
 
                         <div class="mt-4">
