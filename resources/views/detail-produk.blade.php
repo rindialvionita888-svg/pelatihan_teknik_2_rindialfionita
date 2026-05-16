@@ -126,7 +126,7 @@
                         </div>
                         <h5 class="project-title">TaniJiwo App</h5>
                         <p class="project-desc">
-                            Tampilan High-Fidelity beserta prototype yang sudah disambungkan di setiap halaman.Bertema warna hijau dan putih karena konsep aplikasi yang dibuat untuk memangtau perkembangan  tanaman.Berisi Fitur Trend atau berita pertanian, Tips, serta reminder "siram dan pupuk", analisis cuaca, Buku Tani, Deteksi hama menggunakan pencarian Kamera, Info harga pasaran. Terdapat Login page, Home page, Profile, Video tutorial, Dirrect Message sesama User, diperuntukkan agar dapat sharing experience masing-masing user. Menggunakan Figma sebagai tools untuk mendesain dan membuat prototype.
+                            Tampilan High-Fidelity beserta prototype yang sudah disambungkan di setiap halaman.Bertema warna hijau dan putih karena konsep aplikasi yang dibuat untuk memantau perkembangan  tanaman.Berisi Fitur Trend atau berita pertanian, Tips, serta reminder "siram dan pupuk", analisis cuaca, Buku Tani, Deteksi hama menggunakan pencarian Kamera, Info harga pasaran. Terdapat Login page, Home page, Profile, Video tutorial, Dirrect Message sesama User, diperuntukkan agar dapat sharing experience masing-masing user. Menggunakan Figma sebagai tools untuk mendesain dan membuat prototype.
                         </p>
                     </div>
                 </div>

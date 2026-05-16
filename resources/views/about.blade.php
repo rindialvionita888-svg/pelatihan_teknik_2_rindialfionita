@@ -115,7 +115,7 @@
                     <div class="experience-card">
                         <h5 style="color: white;">Teknik Informatika UMNU Kebumen</h5>
                         <p style="color: #666; margin-bottom: 5px;">Mahasiswa</p>
-                        <small style="color: #888;">Fokus pada pengembangan aplikasi berbasis web dan manajemen database.</small>
+                        <small style="color: #888;">Fokus pada pengembangan aplikasi berbasis web dan manajemen database serta tampilan UI/UX.</small>
                     </div>
                 </div>
                 <div class="col-md-6">
