@@ -65,6 +65,45 @@
                     Fokus saya adalah menciptakan pengalaman digital yang interaktif dan fungsional, serta aesthetic.
                 </p>
             </div>
+            <div class="row g-3 mt-4">
+                <div class="col-md-4">
+                    <a href="https://instagram.com/@indiiez_" target="_blank" class="social-box p-3 text-white">
+                        <div class="d-flex align-items-center">
+                            <div class="fs-2 me-3" style="color: var(--accent);"><i class="bi bi-instagram"></i></div>
+                            <div>
+                                <div class="text-muted small">Instagram</div>
+                                <div class="fw-bold">@indiiez_</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://github.com/indyyyhehe" target="_blank" class="social-box p-3 text-white">
+                        <div class="d-flex align-items-center">
+                            <div class="fs-2 me-3" style="color: var(--accent);"><i class="bi bi-github"></i></div>
+                            <div>
+                                <div class="text-muted small">GitHub</div>
+                                <div class="fw-bold">indyyyhehe</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="mailto:rindialvionita888@gmail.com" class="social-box p-3 text-white">
+                        <div class="d-flex align-items-center">
+                            <div class="fs-2 me-3" style="color: var(--accent);"><i class="bi bi-envelope-at"></i></div>
+                            <div>
+                                <div class="text-muted small">Email</div>
+                                <div class="fw-bold">rindialvionita888@gmail.com</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row g-3 mt-4">
+                <div class="col-md-4"></div>
+            </div>
             
             <div class="mt-5">
                 <a href="{{ route('detail') }}" class="btn btn-outline-light px-4 py-2" style="border-color: var(--accent); color: var(--accent); border-radius: 30px;">
