@@ -113,8 +113,8 @@
                 <div class="col-md-6">
                     <h4 style="color: var(--accent); margin-bottom: 30px;">EDUCATION</h4>
                     <div class="experience-card">
-                        <h5 style="color: white;">Teknik Informatika</h5>
-                        <p style="color: #666; margin-bottom: 5px;">Lulusan Terbaru</p>
+                        <h5 style="color: white;">Teknik Informatika UMNU Kebumen</h5>
+                        <p style="color: #666; margin-bottom: 5px;">Mahasiswa</p>
                         <small style="color: #888;">Fokus pada pengembangan aplikasi berbasis web dan manajemen database.</small>
                     </div>
                 </div>
