@@ -37,7 +37,7 @@
         <div class="nav-links">
             <a href="{{ route('home') }}" class="nav-item-link">HOME</a>
             <a href="{{ route('detail') }}" class="nav-item-link">PROJECT</a>
-            <a href="#" class="nav-item-link active">CONTACT</a>
+            <a href="{{ route('contact') }}" class="nav-item-link active">CONTACT</a>
         </div>
         <button class="btn-admin">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#bb86fc" stroke-width="2">
@@ -61,7 +61,7 @@
                         
                         <div class="info-item">
                             <div class="info-label">Email Me</div>
-                            <div class="info-text">rindialvionita888@email.com</div> </div>
+                            <div class="info-text">rindialvionita888@gmail.com</div> </div>
 
                         <div class="info-item">
                             <div class="info-label">WhatsApp</div>
@@ -89,7 +89,7 @@
                         </div>
     
                         <div class="mt-4">
-                            <a href="mailto:rindialv@email.com" class="btn btn-outline-light w-100 py-3" style="border-color: var(--accent); color: var(--accent); border-radius: 10px;">
+                            <a href="mailto:rindialvionita888@gmail.com" class="btn btn-outline-light w-100 py-3" style="border-color: var(--accent); color: var(--accent); border-radius: 10px;">
                                 Send Email Now
                             </a>
                         </div>
