@@ -7,9 +7,20 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
     <style>
         body { background-color: var(--bg-main); color: var(--text); }
         .img-thumbnail { background-color: #1a1a1a; border: 1px solid var(--accent); }
+        .social-box {
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: block;
+        }
+
     </style>
 </head>
 <body>
