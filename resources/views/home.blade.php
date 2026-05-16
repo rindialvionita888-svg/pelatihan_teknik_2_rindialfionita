@@ -48,7 +48,7 @@
 
             <div class="p-4 shadow-sm" style="background-color: #1a1a1a; color: #ccc; line-height: 1.8; border-left: 5px solid var(--accent); border-radius: 0 15px 15px 0;">
                 <p class="mb-0" style="font-size: 1.2rem;">
-                    Saya adalah lulusan <strong>Teknik Informatika</strong>. 
+                    Saya adalah Mahasiswa <strong>Teknik Informatika</strong>. 
                     Berpengalaman dalam mengolah visual sebagai <span style="color: var(--accent);">Web Designer</span> 
                     dan membangun sistem sebagai <span style="color: var(--accent);">Developer</span>. 
                     Fokus saya adalah menciptakan pengalaman digital yang interaktif dan fungsional, serta aesthetic.
