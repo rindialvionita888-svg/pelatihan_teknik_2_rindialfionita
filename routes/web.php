@@ -16,3 +16,6 @@ Route::get('/contact', function () {
 Route::get('/about', function () {
         return view('about');
     })->name('about');
+    use App\Http\Controllers\PortofolioController;
+
+Route::get('/portofolio', [PortofolioController::class, 'index']);
