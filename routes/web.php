@@ -19,3 +19,7 @@ Route::get('/about', function () {
     use App\Http\Controllers\PortofolioController;
 
 Route::get('/portofolio', [PortofolioController::class, 'index']);
+
+Route::get('/portofolio/create', [PortofolioController::class, 'create']);
+
+Route::post('/portofolio/store', [PortofolioController::class, 'store']);
