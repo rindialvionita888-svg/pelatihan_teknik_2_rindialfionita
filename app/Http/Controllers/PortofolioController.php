@@ -7,7 +7,6 @@ use Illuminate\Http\Request;
 
 class PortofolioController extends Controller
 {
-   
     public function index()
     {
         $data_portofolio = Portofolio::all(); 
@@ -19,10 +18,9 @@ class PortofolioController extends Controller
         return view('portofolio.create');
     }
 
-
+   
     public function store(Request $request)
     {
-
         $request->validate([
             'judul' => 'required|min:3',
             'deskripsi' => 'required',
@@ -42,4 +40,46 @@ class PortofolioController extends Controller
 
         return redirect('/portofolio')->with('sukses', 'Project baru berhasil ditambahkan!');
     } 
-} 
+
+   
+    public function edit($id)
+    {
+        
+        $portofolio = Portofolio::find($id); 
+        
+        return view('portofolio.edit', compact('portofolio'));
+    }
+
+   
+    public function update(Request $request, $id)
+    {
+        $request->validate([
+            'judul' => 'required|min:3',
+            'deskripsi' => 'required',
+            'link_project' => 'nullable|url'
+        ], [
+            'judul.required' => 'Judul project wajib diisi!',
+            'judul.min' => 'Judul project minimal harus 3 karakter.',
+            'deskripsi.required' => 'Deskripsi project wajib diisi!',
+            'link_project.url' => 'Format link harus berupa URL yang valid.'
+        ]);
+
+        $portofolio = Portofolio::find($id);
+        $portofolio->update([
+            'judul' => $request->judul,
+            'deskripsi' => $request->deskripsi,
+            'link_project' => $request->link_project,
+        ]);
+
+        return redirect('/portofolio')->with('sukses', 'Project berhasil diperbarui!');
+    }
+
+    
+    public function destroy($id)
+    {
+        $portofolio = Portofolio::find($id);
+        $portofolio->delete(); 
+
+        return redirect('/portofolio')->with('sukses', 'Project berhasil dihapus!');
+    }
+}
