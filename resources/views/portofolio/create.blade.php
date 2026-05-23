@@ -1,7 +1,7 @@
 @extends('master')
 @section('content')
 <div class="container py-5 text-white" style="background-color:#121212; min-height: 80vh;">
-    <div class="mb-4"><h2 class="fw bold" style="color: #bc13fe;"> Tambah Priject Baru</h2>
+    <div class="mb-4"><h2 class="fw bold" style="color: #bc13fe;"> Tambah Project Baru</h2>
 <p class="text-mutted small"> Masukkan detail project Portofolio ke data.</p>
 </div>
 
