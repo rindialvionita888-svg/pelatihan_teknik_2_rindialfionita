@@ -22,6 +22,7 @@ class PortofolioController extends Controller
 
     public function store(Request $request)
     {
+
         $request->validate([
             'judul' => 'required|min:3',
             'deskripsi' => 'required',

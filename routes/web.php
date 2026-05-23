@@ -23,3 +23,6 @@ Route::get('/portofolio', [PortofolioController::class, 'index']);
 Route::get('/portofolio/create', [PortofolioController::class, 'create']);
 
 Route::post('/portofolio/store', [PortofolioController::class, 'store']);
+
+Route::get('/portofolio/{id}/edit', [PortofolioController::class, 'edit']);
+Route::put('/portofolio/{id}', [PortofolioController::class, 'update']);
