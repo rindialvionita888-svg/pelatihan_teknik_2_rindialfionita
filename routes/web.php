@@ -8,7 +8,8 @@ Route::get('/', function () {
 })->name('home'); 
 
 Route::get('/detail', function () {
-    return view('detail-produk');
+    $data_portofolio = \App\Models\Portofolio::all(); 
+    return view('detail-produk', compact('data_portofolio'));
 })->name('detail');
 
 Route::get('/contact', function () {
