@@ -4,17 +4,14 @@
     </div>
     <div class="nav-links">
         <a href="{{ route('home') }}" class="nav-item-link">Intro</a>
-        
         <a href="{{ route('portofolio.index') }}" class="nav-item-link">Works</a>
-        
         <a href="#services" class="nav-item-link">Services</a>
         <a href="{{ route('detail') }}" class="nav-item-link">Archive</a>
-        
         <a href="{{ route('portofolio.index') }}" class="nav-item-link">PROJECT</a>
     </div>
     <div class="nav-footer">
-        <button class="btn-admin" onclick="window.location.href='{{ route('portofolio.create') }}'">
+        <a href="{{ route('portofolio.create') }}" class="btn-admin d-flex align-items-center justify-content-center text-decoration-none">
             <span style="font-size: 1.5rem;">⚙️</span>
-        </button>
+        </a>
     </div>
 </nav>
