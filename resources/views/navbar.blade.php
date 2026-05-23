@@ -5,16 +5,16 @@
     <div class="nav-links">
         <a href="{{ route('home') }}" class="nav-item-link">Intro</a>
         
-        <a href="/portofolio" class="nav-item-link">Works</a>
+        <a href="{{ route('portofolio.index') }}" class="nav-item-link">Works</a>
         
         <a href="#services" class="nav-item-link">Services</a>
         <a href="{{ route('detail') }}" class="nav-item-link">Archive</a>
         
-        <a href="/portofolio" class="nav-item-link">PROJECT</a>
+        <a href="{{ route('portofolio.index') }}" class="nav-item-link">PROJECT</a>
     </div>
     <div class="nav-footer">
-        <a href="/portofolio/create" class="btn border-0 text-decoration-none p-0" title="Tambah Project Baru">
+        <button class="btn-admin" onclick="window.location.href='{{ route('portofolio.create') }}'">
             <span style="font-size: 1.5rem;">⚙️</span>
-        </a>
+        </button>
     </div>
 </nav>
