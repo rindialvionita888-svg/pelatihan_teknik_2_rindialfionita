@@ -26,3 +26,4 @@ Route::post('/portofolio/store', [PortofolioController::class, 'store']);
 
 Route::get('/portofolio/{id}/edit', [PortofolioController::class, 'edit']);
 Route::put('/portofolio/{id}', [PortofolioController::class, 'update']);
+Route::delete('/portofolio/{id}', [PortofolioController::class, 'destroy']);
