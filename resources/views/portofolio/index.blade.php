@@ -34,11 +34,17 @@
                             </a>
                         @endif
                     </div>
+                    
                     <div class="card-footer bg-transparent border-top border-secondary d-flex gap-2 p-3">
                         <a href="/portofolio/{{ $item->id }}/edit" class="btn btn-sm btn-outline-warning px-3">Edit</a>
-                        <button class="btn btn-sm btn-outline-danger px-3">Hapus</button>
+                        
+                        <form action="{{ route('portofolio.destroy', $item->id) }}" method="POST" onsubmit="return confirm('Apakah kamu yakin ingin menghapus project ini?')">
+                            @csrf
+                            @method('DELETE')
+                            <button type="submit" class="btn btn-sm btn-outline-danger px-3">Hapus</button>
+                        </form>
                     </div>
-                </div>
+                    </div>
             </div>
         @empty
             <div class="col-12 text-center py-5 border border-dashed border-secondary my-4" style="border-radius: 12px; border-style: dashed !important;">
