@@ -16,7 +16,7 @@
     @endif
 
     <div class="card bg-black text-white border border-secondary p-4" style="border-radius: 12px;">
-        <form action="/portofolio/store" method="POST">
+      <form action="{{ route('portofolio.store') }}" method="POST" enctype="multipart/form-data">
             @csrf <div class="mb-3">
                 <label class="form-label fw-bold">Judul Project <span class="text-danger">*</span></label>
                 <input type="text" name="judul" class="form-control bg-dark text-white border-secondary" placeholder="Contoh: Aplikasi Order Bouquete" value="{{ old('judul') }}">
@@ -25,6 +25,11 @@
                 <label class="form-label fw-bold">Deskripsi Project <span class="text-danger">*</span></label>
                 <textarea name="deskripsi" rows="4" class="form-control bg-dark text-white border-secondary" placeholder="deskripsi">{{ old('deskripsi') }}</textarea>
             </div>
+            <div class="mb-3">
+    <label for="gambar" class="form-label text-white">Upload Gambar Project</label>
+    <input type="file" class="form-control bg-dark text-white border-secondary" id="gambar" name="gambar" accept="image/*">
+    <div class="form-text text-muted">Format: JPG, JPEG, PNG (Maksimal 2MB)</div>
+</div>
 
             <div class="mb-4">
                 <label class="form-label fw-bold">Link Project (Opsional)</label>
