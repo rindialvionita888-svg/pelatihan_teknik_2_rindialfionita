@@ -11,13 +11,13 @@
 
 <body class="d-flex flex-column min-vh-100 bg-dark text-white">
 
-    @include('layout.navbar')
+    @include('navbar')
 
     <div class="main-wrapper flex-grow-1">
         @yield('content')
     </div>
 
-    @include('layout.footer')
+   @include('footer')
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
