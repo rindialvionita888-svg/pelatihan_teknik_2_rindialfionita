@@ -98,8 +98,13 @@
                 @forelse($data_portofolio as $item)
                     <div class="col-md-4">
                         <div class="detail-card h-100">
+                            
                             <div class="portfolio-mockup">
-                                <img src="{{ asset('img/porto1.png') }}" alt="{{ $item->judul }}" class="portfolio-image">
+                                @if($item->gambar)
+                                    <img src="{{ asset('img/' . $item->gambar) }}" alt="{{ $item->judul }}" class="portfolio-image">
+                                @else
+                                    <img src="{{ asset('img/porto1.png') }}" alt="{{ $item->judul }}" class="portfolio-image">
+                                @endif
                             </div>
                             <h5 class="project-title">{{ $item->judul }}</h5>
                             <p class="project-desc">
@@ -118,7 +123,8 @@
                         <p class="text-muted fs-5">Belum ada project portfolio yang dimasukkan.</p>
                     </div>
                 @endforelse
-                </div>
+
+            </div>
         </div>
     </main>
 
