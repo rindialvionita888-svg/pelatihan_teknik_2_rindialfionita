@@ -6,7 +6,7 @@
             <a href="#" class="text-secondary mx-2 text-decoration-none small">Instagram</a>
         </div>
         
-        <p class="text-secondary small mb-1">Dibuat dengan ❤️ oleh **Rindi Alfionita**</p>
+        <p class="text-secondary small mb-1">created by : Rindi alfionita</p>
         <p class="text-muted" style="font-size: 0.75rem;">
             &copy; 2026 Universitas Ma'arif Nahdlatul Ulama Kebumen. All Rights Reserved.
         </p>
