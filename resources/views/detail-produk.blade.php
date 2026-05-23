@@ -95,43 +95,30 @@
 
             <div class="row g-4">
                 
-                <div class="col-md-4">
-                    <div class="detail-card h-100">
-                        <div class="portfolio-mockup">
-                            <img src="{{ asset('img/porto1.png') }}" alt="UI UX Design" class="portfolio-image">
+                @forelse($data_portofolio as $item)
+                    <div class="col-md-4">
+                        <div class="detail-card h-100">
+                            <div class="portfolio-mockup">
+                                <img src="{{ asset('img/porto1.png') }}" alt="{{ $item->judul }}" class="portfolio-image">
+                            </div>
+                            <h5 class="project-title">{{ $item->judul }}</h5>
+                            <p class="project-desc">
+                                {{ $item->deskripsi }}
+                            </p>
+                            
+                            @if($item->link_project)
+                                <a href="{{ $item->link_project }}" target="_blank" class="text-decoration-none small" style="color: var(--accent); font-size: 0.85rem;">
+                                    View Live Project →
+                                </a>
+                            @endif
                         </div>
-                        <h5 class="project-title">LoveVoy Bouquete</h5>
-                        <p class="project-desc">
-                          Tampilan High-Fidely beserta prototype yang sudah di sambungkan tiapp halaman. Bertema warna pink dan putih agar user merasa nyaman dan ceria ketika menggunakan aplikasi ini. Memiliki fitur yang lengkap yaitu Login page, Homepage, Produk, Our Place, Custom Order, Contact, About Us, dan Our place (alamat).Menggunakan Figma sebagai tools untuk mendesain dan membuat prototype.
-                        </p>
                     </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="detail-card h-100">
-                        <div class="portfolio-mockup">
-                            <img src="{{ asset('img/porto2.png') }}" alt="Web Dev" class="portfolio-image">
-                        </div>
-                        <h5 class="project-title">DONUT BE-SHY</h5>
-                        <p class="project-desc">
-                            Tampilan High-Fidelty beserta prototype yang sudah disambungkan di setiap halaman. Hanya menampikan bagian Login page dan homepage saja, dimana ditampilkan berbagai menu donat, dan akan berubah warna sesuai varian rasa donat nya. 
-                        </p>
+                @empty
+                    <div class="col-12 text-center py-5 shadow-sm">
+                        <p class="text-muted fs-5">Belum ada project portfolio yang dimasukkan.</p>
                     </div>
+                @endforelse
                 </div>
-
-                <div class="col-md-4">
-                    <div class="detail-card h-100">
-                        <div class="portfolio-mockup">
-                            <img src="{{ asset('img/porto3.png') }}" alt="Final Product" class="portfolio-image">
-                        </div>
-                        <h5 class="project-title">TaniJiwo App</h5>
-                        <p class="project-desc">
-                            Tampilan High-Fidelity beserta prototype yang sudah disambungkan di setiap halaman.Bertema warna hijau dan putih karena konsep aplikasi yang dibuat untuk memantau perkembangan  tanaman.Berisi Fitur Trend atau berita pertanian, Tips, serta reminder "siram dan pupuk", analisis cuaca, Buku Tani, Deteksi hama menggunakan pencarian Kamera, Info harga pasaran. Terdapat Login page, Home page, Profile, Video tutorial, Dirrect Message sesama User, diperuntukkan agar dapat sharing experience masing-masing user. Menggunakan Figma sebagai tools untuk mendesain dan membuat prototype.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
         </div>
     </main>
 
